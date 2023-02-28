@@ -22,9 +22,9 @@
 <p align="center">Validação de formulário</p>
 <br>
 <div display="flex">
-<img src="./img/img-pj.png" alt="imagem" width="400px" height="400px">
-<img src="./img/img-pj2.png" alt="imagem" width="400px" height="400px">
-<img src="./img/img-pj3.png" alt="imagem" width="400px" height="400px">
+<img src="./img/img-pj.png" alt="imagem" width="600px" height="300px">
+<img src="./img/img-pj2.png" alt="imagem" width="600px" height="300px">
+<img src="./img/img-pj3.png" alt="imagem" width="600px" height="300px">
 </div>
 
 <br>
