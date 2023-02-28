@@ -7,7 +7,7 @@
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="#-Serviços">Serviços</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Autores">Autores</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="#-Autor">Autor</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
 <br>
@@ -22,9 +22,9 @@
 <p align="center">Validação de formulário</p>
 <br>
 <div display="flex">
-<img src="./img/img-pj.png" alt="imagem" width="240px" height="400px">
-<img src="./img/img-pj2.png" alt="imagem" width="240px" height="400px">
-<img src="./img/img-pj3.png" alt="imagem" width="240px" height="400px">
+<img src="./img/img-pj.png" alt="imagem" width="400px" height="400px">
+<img src="./img/img-pj2.png" alt="imagem" width="400px" height="400px">
+<img src="./img/img-pj3.png" alt="imagem" width="400px" height="400px">
 </div>
 
 <br>
@@ -51,6 +51,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 <br>
 
-## 🙋‍♂️ 🙋‍♂️ 🙋‍♂️ Autores
+## 🙋‍♂️ Autor
 
 - Feito por Matheus Ellenberger <a href="https://github.com/Matheus-Ellenberger">GitHub</a>
