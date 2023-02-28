@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="formulário de login/cadastro">
+    <title>Formulário</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsiv.css">
+    <!-- JS -->
+    <script src="./js/script.js" defer></script>
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <main id="layout">
+
+        <section id="apresentacao">
+            <div class="container--apresentacao">
+                <div class="text">
+                    <h1 class="text--principal">
+                        Planeje suas atividades e controle seus progressos online
+                    </h1>
+                </div>
+                <div class="slide--img">
+                    <img src="./img/img2.png" alt="imagem" class="img1"> 
+                </div>
+            </div>
+        </section>
+
+
+        <section id="formulario">
+            <div class="container--formulario">
+            
+                <form id="form">
+                    <div class="title">
+                        <span class="signup">Cadastro</span>
+                    </div>
+
+                    <label for="name" class="labelName">Nome Completo:</label>
+                    <input type="text" name="name" id="name" placeholder="Nome completo..." autocomplete="none" autofocus>
+                    <span class="errorName"></span>
+
+
+                    <label for="email" class="labelEmail">E-mail:</label>
+                    <input type="email" name="email" id="email" placeholder="E-mail..."  autocomplete="none">
+                    <span class="errorEmail"></span>
+
+
+                    <label for="password" class="labelPassword">Senha:</label>
+                    <input type="password" name="password" id="password" placeholder="Senha...">
+                    <span class="errorPassword"></span>
+
+                    <div class="terms">
+                        <input type="checkbox" id="checkbox">
+                        <span>Eu concordo com os <a href="#">termos de serviço</a></span>
+                    </div>
+
+                    <div class="opcao--cadastro">
+                        <button type="submit" id="btn--submit">cadastrar</button>
+                    </div>
+
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+</body>
+</html>

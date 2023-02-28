@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#layout {
+    width: 70rem;
+    height: 40rem;
+    margin: auto;
+    display: flex;   
+    border-radius: 10px;
+}
+
+#apresentacao, #formulario {
+    flex: 1;
+}
+
+#apresentacao {
+    display: flex;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    background-color: #449c8a;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.container--apresentacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 25rem;
+}
+
+.text--principal {
+    color: #fff;
+    font-size:20px;
+    padding: 0px 30px;
+}
+.img1 {
+    width: 300px;
+}
+
+
+
+
+/* formulário */
+
+
+#formulario {
+    background-color:#374a61;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #fff;
+}
+
+.container--formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+    height: 80%;
+}
+
+.labelName,
+.labelEmail,
+.labelPassword {
+    margin: 40px 0px 0px 0px;
+}
+
+#name,
+#email,
+#password {
+    height: 35px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid #5e7a75;
+    outline: 0;
+    color: #fff;
+    padding: 5px;
+    font-size: 16px;
+    
+}
+
+.terms {
+    margin: 40px 0px;
+}
+
+input::placeholder {
+    color: #999;
+}
+
+.signup {
+    font-size: 30px;
+}
+
+.errorName,
+.errorEmail,
+.errorPassword {
+    color: #ff0000;
+    display: none;
+}
+
+.terms span{
+    color: #999;
+}
+
+.terms a {
+    color: #fff;
+}
+
+#btn--submit {
+    width: 100px;
+    height: 30px;
+    border: 0;
+    font-size: 16px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: #53a293;
+    color:#fff;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.opcao--cadastro a{
+    color: #999;
+}
+
+.errorInput {
+    border-bottom: 1px solid #f00 !important;
+}
