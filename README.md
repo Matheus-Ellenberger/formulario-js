@@ -54,4 +54,3 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 🙋‍♂️ 🙋‍♂️ 🙋‍♂️ Autores
 
 - Feito por Matheus Ellenberger <a href="https://github.com/Matheus-Ellenberger">GitHub</a>
-
